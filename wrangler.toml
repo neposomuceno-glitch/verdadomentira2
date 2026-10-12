@@ -1,0 +1,10 @@
+name = "contrastar"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+[vars]
+PROVEEDOR = "gemini"
+MODELO = "gemini-3.8-flash"
+ORIGEN_PERMITIDO = "*"
+# La clave NO va aquí. Añádala como secreto:
+#   npx wrangler secret put API_KEY
